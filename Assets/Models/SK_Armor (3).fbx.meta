@@ -1,28 +1,15 @@
 fileFormatVersion: 2
-guid: 1b937454eb0ed974d9ba2aa30e2c6b54
+guid: 9b4e7c055e2d1ec46952c3f823edbf22
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: BaseSwitch_geo
-    100002: //RootNode
-    100004: Switch_geo
-    400000: BaseSwitch_geo
-    400002: //RootNode
-    400004: Switch_geo
-    2100000: lambert1
-    2300000: BaseSwitch_geo
-    2300002: Switch_geo
-    3300000: BaseSwitch_geo
-    3300002: Switch_geo
-    4300000: BaseSwitch_geo
-    4300002: Switch_geo
-    9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: 3c40c8fdc50a841579d7cb15882ac9d9, type: 2}
+    100000: //RootNode
+    400000: //RootNode
+    2100000: lambert4
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: SK_Armor
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -74,8 +61,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -102,7 +89,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

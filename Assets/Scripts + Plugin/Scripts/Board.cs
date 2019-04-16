@@ -27,7 +27,7 @@ public class Board : MonoBehaviour {
     public List<Node> TriggerNodes { get { return m_triggerNodes; } }
 
     List<MovableObject> m_AllmovableObjects = new List<MovableObject>();
-    public List<MovableObject> AllMovableObjects { get { return m_AllmovableObjects; }}
+    public List<MovableObject> AllMovableObjects { get { return m_AllmovableObjects; } }
 
     List<Mirror> m_AllMirrors = new List<Mirror>();
     public List<Mirror> AllMirrors { get { return m_AllMirrors; } }
@@ -38,6 +38,12 @@ public class Board : MonoBehaviour {
     List<PushingWall> m_AllPushingWalls = new List<PushingWall>();
     public List<PushingWall> AllPushingWalls { get { return m_AllPushingWalls; } }
 
+    List<Armor> m_AllArmors = new List<Armor>();
+    public List<Armor> AllArmors { get { return m_AllArmors; } }
+
+    List<Sword> m_AllSwords = new List<Sword>();
+    public List<Sword> AllSwords { get { return m_AllSwords; } }
+
 
     Node m_playerNode;
 
@@ -47,7 +53,7 @@ public class Board : MonoBehaviour {
     public Node GoalNode { get { return m_goalNode; } }
 
     Node m_previousPlayerNode;
-    public Node PreviousPlayerNode { get { return m_previousPlayerNode; } set { m_previousPlayerNode = playerNode;} }
+    public Node PreviousPlayerNode { get { return m_previousPlayerNode; } set { m_previousPlayerNode = playerNode; } }
 
 
     Node m_chasingPreviousPlayerNode;
@@ -82,7 +88,9 @@ public class Board : MonoBehaviour {
         m_AllmovableObjects = FindMovableObjects();
         m_AllTraps = FindTraps();
         m_AllPushingWalls = FindPushingWalls();
-        
+        m_AllArmors = FindArmors();
+        m_AllSwords = FindSwords();
+
         GetNodeList();
         m_crackableNodes = FindCrackableNodes();
         m_goalNode = FindGoalNode();
@@ -93,7 +101,7 @@ public class Board : MonoBehaviour {
         Node[] nList = GameObject.FindObjectsOfType<Node>();
         m_allNodes = new List<Node>(nList);
     }
-    
+
     public Node FindNodeAt(Vector3 pos) {
         Vector2 boardCoord = Utility.Vector2Round(new Vector2(pos.x, pos.z));
         return m_allNodes.Find(n => n.Coordinate == boardCoord);
@@ -157,13 +165,37 @@ public class Board : MonoBehaviour {
         return foundMovableObjects;
     }
 
+    public List<Armor> FindArmorsAt(Node node) {
+        List<Armor> foundArmors = new List<Armor>();
+        Armor[] armors = Object.FindObjectsOfType<Armor>() as Armor[];
+
+        foreach (Armor armor in armors) {
+            if (armor.CurrentNode == node) {
+                foundArmors.Add(armor);
+            }
+        }
+        return foundArmors;
+    }
+
+    public List<Sword> FindSwordsAt(Node node) {
+        List<Sword> foundSwords = new List<Sword>();
+        Sword[] swords = Object.FindObjectsOfType<Sword>() as Sword[];
+
+        foreach (Sword sword in swords) {
+            if (sword.CurrentNode == node) {
+                foundSwords.Add(sword);
+            }
+        }
+        return foundSwords;
+    }
+
     public void UpdatePlayerNode() {
         m_playerNode = FindPlayerNode();
     }
 
 
     public void SetPreviousPlayerNode(Node n) { //Cambiare il nome qui o su Enemy Mover
-        PreviousPlayerNode = n; 
+        PreviousPlayerNode = n;
     }
 
     public Node GetPreviousPlayerNode() {
@@ -173,9 +205,10 @@ public class Board : MonoBehaviour {
     public void UpdateTriggerToFalse() {
         PreviousPlayerNode.triggerState = false;
         PreviousPlayerNode.UpdateGateToClose(PreviousPlayerNode.GetGateID());
+        PreviousPlayerNode.ArmorDeactivation(PreviousPlayerNode.GetArmorID());
     }
 
-    
+
     public List<MovableObject> FindMovableObjects() {
         List<MovableObject> foundMovableObjects = new List<MovableObject>();
         MovableObject[] movableObjects = Object.FindObjectsOfType<MovableObject>() as MovableObject[];
@@ -208,7 +241,23 @@ public class Board : MonoBehaviour {
         return foundPushingWalls;
     }
 
-    
+    public List<Armor> FindArmors() {
+        List<Armor> foundArmors = new List<Armor>();
+        Armor[] armors = Object.FindObjectsOfType<Armor>() as Armor[];
+        foundArmors = armors.ToList();
+
+        return foundArmors;
+    }
+
+    public List<Sword> FindSwords() {
+        List<Sword> foundSwords = new List<Sword>();
+        Sword[] swords = Object.FindObjectsOfType<Sword>() as Sword[];
+        foundSwords = swords.ToList();
+
+        return foundSwords;
+    }
+
+
     public void DrawGoal() {
         if (goalPrefab != null && m_goalNode != null) {
             GameObject goalInstance = Instantiate(goalPrefab, m_goalNode.transform.position, Quaternion.identity);
@@ -226,5 +275,5 @@ public class Board : MonoBehaviour {
             m_playerNode.InitNode();
         }
     }
-    
+
 }

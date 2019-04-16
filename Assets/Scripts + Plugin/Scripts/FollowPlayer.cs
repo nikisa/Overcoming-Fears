@@ -1,28 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
 public class FollowPlayer : MonoBehaviour {
 
-    public PlayerManager player;
-    public float distance;
-    Vector3 PlayerPOS = GameObject.Find("Player").transform.position;
-    int DistanceAway = 10;
+    public GameObject character;
+    Transform _target;
+    Vector3 characterPosition;
+    public float cameraHeight;
+    public float cameraAngle;
 
+    void Update() {
 
-
-    // Use this for initialization
-    void Start () {
-        PlayerPOS = player.transform.position;
-    }
-	
-	// Update is called once per frame
-	void Update () {
-        followPlayer();
-    }
-
-    void followPlayer() {
-        
-        GameObject.Find("MainCamera").transform.position = new Vector3(PlayerPOS.x, PlayerPOS.y, PlayerPOS.z - DistanceAway);
+        characterPosition = new Vector3(character.transform.position.x + cameraAngle, cameraHeight, character.transform.position.z - cameraAngle);
+        transform.position = characterPosition;
+        transform.LookAt(_target);
     }
 }

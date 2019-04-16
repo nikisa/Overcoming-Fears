@@ -147,30 +147,47 @@ public class EnemyMover : Mover {
 
         //Two space forward
         Vector3 nextDest = startPos + transform.TransformVector(directionToMove * 2f);
-        
-        Move(newDest, 0f);
 
-        while (isMoving) {
-           yield return null;
-        }
+        //COntrollare il movimento
+        
+
+        
 
         if (m_board != null) {
             Node newDestNode = m_board.FindNodeAt(newDest);
             Node nextDestNode = m_board.FindNodeAt(nextDest);
 
-            if (nextDestNode == null || nextDestNode.LinkedNodes.Contains(nextDestNode) || m_board.FindMovableObjectsAt(nextDestNode).Count != 0 || (m_board.playerNode == nextDestNode && m_player.spottedPlayer)) {
+            if (newDestNode == null || newDestNode.LinkedNodes.Contains(newDestNode) || m_board.FindMovableObjectsAt(newDestNode).Count != 0 || m_board.FindSwordsAt(newDestNode).Count != 0 || (m_board.playerNode == newDestNode && m_player.spottedPlayer)) {
 
-                //SPOSTARE MOVIMENTO QUI DENTRO ALTRIMENTI SI BLOCCA NELL ANGOLINO E NON SI GIRA
+               
 
-                destination = startPos;
-                FaceDestination();
+                Spin();
 
                 yield return new WaitForSeconds(rotateTime);
             }
-        }
-        base.finishMovementEvent.Invoke();
-    }
+            else {
+                Move(newDest, 0f);
 
+                while (isMoving) {
+                    yield return null;
+                }
+            }
+
+
+            if (nextDestNode == null || nextDestNode.LinkedNodes.Contains(nextDestNode) || m_board.FindMovableObjectsAt(nextDestNode).Count != 0 || m_board.FindSwordsAt(nextDestNode).Count != 0 || (m_board.playerNode == nextDestNode && m_player.spottedPlayer)) {
+
+                    //SPOSTARE MOVIMENTO QUI DENTRO ALTRIMENTI SI BLOCCA NELL ANGOLINO E NON SI GIRA
+
+                    destination = startPos;
+                    FaceDestination();
+
+                    yield return new WaitForSeconds(rotateTime);
+                }
+
+            base.finishMovementEvent.Invoke();
+            }
+        }
+    
     void Stand() {
         StartCoroutine(StandRoutine());
     }
@@ -195,3 +212,4 @@ public class EnemyMover : Mover {
     }
 
 }
+    

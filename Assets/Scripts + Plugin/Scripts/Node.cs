@@ -13,7 +13,7 @@ public class Node : MonoBehaviour {
     List<Node> m_linkedNodes = new List<Node>();
     public List<Node> LinkedNodes { get { return m_linkedNodes; } }
 
-    
+
     Board m_board;
 
     public GameObject switchPrefab;
@@ -71,6 +71,8 @@ public class Node : MonoBehaviour {
 
     public int pushingWallID = 0;
 
+    public int armorID = 0;
+
     private Vector3 m_nodePosition;
 
     public Sprite[] sprites;
@@ -81,7 +83,6 @@ public class Node : MonoBehaviour {
         m_board = Object.FindObjectOfType<Board>();
         m_coordinate = new Vector2(transform.position.x, transform.position.z);
         UpdateCrackableTexture();
-        gateTemp = gatePrefab;
         m_nodePosition = new Vector3(1000f, 1000f, 1000f);
     }
 
@@ -202,6 +203,10 @@ public class Node : MonoBehaviour {
         this.crackableState--;
     }
 
+    public void DestroyCrackableInOneHit() {
+        this.crackableState = 0;
+    }
+
     public void FromCrackableToNormal() {
         this.crackableState = 100;
     }
@@ -220,6 +225,8 @@ public class Node : MonoBehaviour {
         UpdateGateToOpen(gateID);
         TrapActivation(trapID);
         PushingWallActivation(pushingWallID);
+        ArmorActivation(armorID);
+
         return triggerState = true;
 
     }//UpdateTriggerToFalse --> in Board
@@ -231,6 +238,7 @@ public class Node : MonoBehaviour {
 
     public bool UpdateSwitchToTrue() {
         UpdateGateToOpen(gateID);
+        ArmorActivation(armorID);
 
         PushingWallActivation(pushingWallID);
 
@@ -246,6 +254,7 @@ public class Node : MonoBehaviour {
 
     public bool UpdateSwitchToFalse() {
         UpdateGateToClose(gateID);
+        ArmorDeactivation(armorID);
 
         if (mirrorID != 0) {
             foreach (var mirror in m_board.AllMirrors) {
@@ -266,6 +275,10 @@ public class Node : MonoBehaviour {
         return gateID;
     }
 
+    public int GetArmorID() {
+        return armorID;
+    }
+
     public int GetMirrorID() {
         return mirrorID;
     }
@@ -273,14 +286,14 @@ public class Node : MonoBehaviour {
 
     public void SetGateOpen() {
         gateOpen = true;
-        gateTemp.transform.GetChild(0).gameObject.SetActive(false);
+        //gateTemp.transform.GetChild(0).gameObject.SetActive(true);
         //gateTemp.transform.GetChild(1).gameObject.SetActive(false);
     }
 
     public void SetGateClose() {
         gateOpen = false;
 
-        gateTemp.transform.GetChild(0).gameObject.SetActive(true);
+        //gateTemp.transform.GetChild(0).gameObject.SetActive(false);
         //gateTemp.transform.GetChild(1).gameObject.SetActive(true);
 
     }
@@ -313,6 +326,22 @@ public class Node : MonoBehaviour {
         }
     }
 
+    public void ArmorActivation(int id) {
+        foreach (var armor in m_board.AllArmors) {
+            if (armor.GetID() == id) {
+                armor.ActivateSword();
+            }
+        }
+    }
+
+    public void ArmorDeactivation(int id) {
+        foreach (var armor in m_board.AllArmors) {
+            if (armor.GetID() == id) {
+                armor.DeactivateSword();
+            }
+        }
+    }
+
     public bool UpdateGateToClose(int id) {
         gateOpen = true;
 
@@ -332,15 +361,14 @@ public class Node : MonoBehaviour {
         if (isATrigger) {
             GameObject triggerTemp;
             triggerTemp = Instantiate(triggerPrefab, transform.position, Quaternion.identity);
-            triggerTemp.transform.Rotate(-90,0,0);
+            triggerTemp.transform.Rotate(-90, 0, 0);
         }
 
         if (isAGate) {
-            
+
             gateTemp = Instantiate(gatePrefab, transform.position, Quaternion.identity);
             gateTemp.transform.Rotate(0, 90, 0);
-            gateTemp.transform.position += new Vector3(0.7f,0,0);
-            gateTemp.transform.localScale = new Vector3(.8f , .8f , .8f);
+            gateTemp.transform.position += new Vector3(0, 1, 0);
         }
 
         if (hasLightBulb) {

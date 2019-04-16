@@ -26,6 +26,8 @@ public class GameManager : MonoBehaviour {
     List<EnemyManager> m_enemies;
     List<EnemyMover> m_enemiesMovers;
     List<MovableObject> m_movableObjects;
+    List<Armor> m_armors;
+    List<Sword> m_sword;
 
     Turn m_currentTurn = Turn.Player;
     public Turn CurrentTurn { get { return m_currentTurn; } }
@@ -65,7 +67,13 @@ public class GameManager : MonoBehaviour {
         MovableObject[] movableObjects = GameObject.FindObjectsOfType<MovableObject>() as MovableObject[];
         m_movableObjects = movableObjects.ToList();
 
-        directionToMove = new Vector3(0f, 0f, Board.spacing);
+        Armor[] armors = GameObject.FindObjectsOfType<Armor>() as Armor[];
+        m_armors = armors.ToList();
+
+        Sword[] swords = GameObject.FindObjectsOfType<Sword>() as Sword[];
+        m_sword = swords.ToList();
+
+        //directionToMove = new Vector3(0f, 0f, Board.spacing);
 
     }
 
@@ -96,7 +104,7 @@ public class GameManager : MonoBehaviour {
         m_player.playerInput.InputEnabled = false;
         while (!m_hasLevelStarted) {
 
-            
+
             yield return null;
         }
 
@@ -194,7 +202,7 @@ public class GameManager : MonoBehaviour {
     }
 
     void PlayPlayerTurn() {
-        
+
 
         m_currentTurn = Turn.Player;
 
@@ -202,7 +210,7 @@ public class GameManager : MonoBehaviour {
 
 
         m_player.IsTurnComplete = false;
-        
+
     }
 
     void PlayEnemyTurn() {
@@ -216,7 +224,7 @@ public class GameManager : MonoBehaviour {
                     enemy.PlayTurn();
                 }
                 else {
-                    
+
                     enemy.PushLeft();
                     enemy.PushRight();
                     enemy.PushUp();
@@ -253,22 +261,33 @@ public class GameManager : MonoBehaviour {
 
     public void UpdateTurn() {
 
-        
+
         checkNodeForObstacles();
         LightBulbNode();
         FearEnemies();
         FlashLightNode();
+
         
 
-        foreach (var enemy in m_enemies)
-        {
-            if (enemy!=null) {
+
+        foreach (var enemy in m_enemies) {
+            if (enemy != null) {
+
+                foreach (Sword sword in m_sword) {
+                    if (sword != null) {
+                        if (m_board.FindNodeAt(enemy.transform.position) == m_board.FindNodeAt(sword.transform.position) && sword.gameObject.activeInHierarchy) {
+                            enemy.Die();
+                        }
+                    }
+                }
+
                 if (m_board.FindMovableObjectsAt(m_board.FindNodeAt(enemy.transform.TransformVector(new Vector3(0, 0, 2f)) + enemy.transform.position)).Count != 0) {
                     enemy.SetMovementType(MovementType.Stationary);
                 }
                 else {
                     enemy.SetMovementType(enemy.GetFirstMovementType());
                 }
+                
             }
         }
 
@@ -284,9 +303,9 @@ public class GameManager : MonoBehaviour {
                 m_movableObjects = GetMovableObjects();
             }
         }
-        
+
         else if (m_currentTurn == Turn.Enemy) {
-            
+
             triggerNode();
             if (IsEnemyTurnComplete()) {
                 PlayPlayerTurn();
@@ -294,6 +313,7 @@ public class GameManager : MonoBehaviour {
             }
         }
     }
+    
 
     public void crackNode() {
 
@@ -301,10 +321,12 @@ public class GameManager : MonoBehaviour {
 
         List<EnemyManager> enemies;
         List<MovableObject> movableObjects;
+        List<Sword> swords;
 
         foreach (var node in m_board.CrackableNodes) {
             enemies = m_board.FindEnemiesAt(node);
             movableObjects = m_board.FindMovableObjectsAt(node);
+            swords = m_board.FindSwordsAt(node);
             foreach (EnemyManager enemy in enemies) {
                 node.UpdateCrackableState();
                 node.UpdateCrackableTexture();
@@ -335,10 +357,23 @@ public class GameManager : MonoBehaviour {
                 }
             }
             //______M.O. ON CRACKNODE___________________
+
+            //______Swords ON CRACKNODE
+
+            foreach (Sword sword in swords) {
+                node.DestroyCrackableInOneHit();
+                Debug.Log("NODE DESTROYED");
+                node.UpdateCrackableTexture();
+            }
+
+
+            //______Swords ON CRACKNODE___________________
+
+
         }
 
         //______ENEMY ON CRACKNODE___________________
-        
+
 
         if (m_board.playerNode.isCrackable) {
             m_board.playerNode.UpdateCrackableState();
@@ -349,7 +384,7 @@ public class GameManager : MonoBehaviour {
             loseLevelEvent.Invoke();
         }
     }
-   
+
 
     public void triggerNodePlayerTurn() {
         if (m_board.playerNode.isATrigger) {
@@ -362,7 +397,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void triggerNode() {
-        
+
         List<EnemyManager> enemies;
         List<MovableObject> movableObjects;
 
@@ -395,15 +430,15 @@ public class GameManager : MonoBehaviour {
             }
         }
     }
-    
+
 
 
     public List<MovableObject> GetMovableObjects() {
-        foreach (var movObj in m_board.AllMovableObjects) { 
+        foreach (var movObj in m_board.AllMovableObjects) {
             foreach (var node in m_board.playerNode.LinkedNodes) {
                 if (movObj.transform.position == node.transform.position) {
                     m_movableObjects.Add(movObj);
-                    
+
                 }
             }
         }
@@ -431,13 +466,13 @@ public class GameManager : MonoBehaviour {
     }
 
 
-    public void FearEnemies(){
-        
+    public void FearEnemies() {
+
         if (m_player.hasLightBulb) {
             foreach (var enemy in m_enemies) {
 
                 startPos = new Vector3(m_board.FindNodeAt(enemy.transform.position).Coordinate.x, 0f, m_board.FindNodeAt(enemy.transform.position).Coordinate.y);
-                
+
                 if (enemy.GetMovementType() == MovementType.Chaser) {
                     Debug.Log(EnemyMover.index);
                     frontalDest = m_player.GetPlayerPath(EnemyMover.index).transform.position;
@@ -452,22 +487,20 @@ public class GameManager : MonoBehaviour {
                         enemy.isScared = true;
                         enemy.wasScared = true;
                     }
-                    else if(frontalDest != m_board.playerNode.transform.position) {
+                    else if (frontalDest != m_board.playerNode.transform.position) {
                         enemy.isScared = false;
                     }
                 }
-                
+
             }
-        } 
+        }
     }
 
-    IEnumerator CheckSpottedPosition(){
+    IEnumerator CheckSpottedPosition() {
 
         yield return new WaitForSeconds(0.2f);
 
         foreach (var enemy in m_enemies) {
-
-            Debug.Log(m_board.playerNode + "=" + m_board.FindNodeAt(enemy.m_enemyMover.spottedDest));
 
             if (m_board.playerNode == m_board.FindNodeAt(enemy.m_enemyMover.spottedDest) && enemy.wasScared && m_board.FindNodeAt(enemy.m_enemyMover.firstDest).LinkedNodes.Contains(m_board.FindNodeAt(enemy.m_enemyMover.spottedDest))) {
 
