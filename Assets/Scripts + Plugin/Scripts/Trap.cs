@@ -25,7 +25,7 @@ public class Trap : MonoBehaviour {
         GameObject temp;
 
         if (canShoot) {
-            temp = Instantiate(projectile, transform.forward + new Vector3(this.transform.position.x, 0.5f, transform.position.y), Quaternion.identity);
+            temp = Instantiate(projectile, transform.forward + new Vector3(this.transform.position.x, 0.5f, transform.position.z), Quaternion.identity);
             temp.GetComponent<Rigidbody>().AddForce(transform.forward * speed);
             canShoot = false;
         }        
