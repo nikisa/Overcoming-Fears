@@ -78,7 +78,9 @@ public class GameManager : MonoBehaviour {
     }
 
     void Start() {
+        Debug.Log(m_enemies.Count);
         if (m_player != null && m_board != null) {
+            InitSword();
             StartCoroutine("RunGameLoop");
         }
         else {
@@ -221,6 +223,7 @@ public class GameManager : MonoBehaviour {
                 enemy.IsTurnComplete = false;
 
                 if (enemy.isScared == false) {
+                    EnemyOnOff();
                     enemy.PlayTurn();
                 }
                 else {
@@ -261,11 +264,12 @@ public class GameManager : MonoBehaviour {
 
     public void UpdateTurn() {
 
-
+       // CheckSword();
         checkNodeForObstacles();
         LightBulbNode();
         FearEnemies();
         FlashLightNode();
+      
 
         
 
@@ -308,10 +312,13 @@ public class GameManager : MonoBehaviour {
 
             triggerNode();
             if (IsEnemyTurnComplete()) {
-                PlayPlayerTurn();
-                crackNode();
+              crackNode();
+              PlayPlayerTurn();
+                
             }
+            NotMovingMovable();
         }
+       
     }
     
 
@@ -338,8 +345,13 @@ public class GameManager : MonoBehaviour {
 
             //______M.O. ON CRACKNODE___________________
             foreach (MovableObject movableObject in movableObjects) {
-                node.UpdateCrackableState();
-                node.UpdateCrackableTexture();
+                if  (movableObject.hasMoved)
+                {
+                  
+                     node.UpdateCrackableState();
+                     node.UpdateCrackableTexture();
+                }
+             
 
                 if (node.GetCrackableState() == 0) {
                     m_board.AllMovableObjects.Remove(movableObject);
@@ -369,7 +381,7 @@ public class GameManager : MonoBehaviour {
 
             //______Swords ON CRACKNODE___________________
 
-
+        
         }
 
         //______ENEMY ON CRACKNODE___________________
@@ -492,6 +504,56 @@ public class GameManager : MonoBehaviour {
                     }
                 }
 
+            }
+        }
+    }
+    public void EnemyOnOff()
+    {
+        foreach (var enemy in m_enemies)
+        {
+            if(enemy!=null)
+            {
+                if (m_board.FindNodeAt(enemy.transform.position).isAGate && !m_board.FindNodeAt(enemy.transform.position).gateOpen)
+                {
+                enemy.isOff = true;
+                }
+                else if (m_board.FindNodeAt(enemy.transform.position).isAGate && m_board.FindNodeAt(enemy.transform.position).gateOpen)
+                {
+                enemy.isOff = false;
+            
+            
+            }
+           }
+        }
+     
+    }
+    public void SaveMO()
+    {
+        foreach (var crackcableNode in m_board.FindCrackableNodes())
+        {
+            foreach (var movableOnCrack in m_board.FindMovableObjectsAt(crackcableNode))   // prende il movableObject sopra il crackNode e lo salva 
+            {
+                crackcableNode.MO = movableOnCrack;
+            }
+            
+        }
+    }
+    public void NotMovingMovable()
+    {
+        foreach (var movableObject in m_movableObjects)
+        {
+            movableObject.hasMoved = false;
+            movableObject.hasStopped= true;
+        }
+    }
+    
+    public void InitSword()
+    {
+        foreach (var armor in m_armors)
+        {
+            if (!armor.isActive)
+            {
+                armor.transform.GetChild(0).gameObject.SetActive(false);
             }
         }
     }

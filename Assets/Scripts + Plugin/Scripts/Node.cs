@@ -39,6 +39,8 @@ public class Node : MonoBehaviour {
 
     public LayerMask obstacleLayer;
 
+    public MovableObject MO;
+
     public bool isLevelGoal = false;
 
     public bool isCrackable = false;
@@ -286,15 +288,21 @@ public class Node : MonoBehaviour {
 
     public void SetGateOpen() {
         gateOpen = true;
-        //gateTemp.transform.GetChild(0).gameObject.SetActive(true);
-        //gateTemp.transform.GetChild(1).gameObject.SetActive(false);
+        if (gateTemp != null)
+        {
+            gateTemp.SetActive(false);
+        }
+
     }
 
     public void SetGateClose() {
         gateOpen = false;
+        if (gateTemp!=null)
+        {
+             gateTemp.SetActive(true);
+        }
 
-        //gateTemp.transform.GetChild(0).gameObject.SetActive(false);
-        //gateTemp.transform.GetChild(1).gameObject.SetActive(true);
+       
 
     }
 
@@ -367,8 +375,7 @@ public class Node : MonoBehaviour {
         if (isAGate) {
 
             gateTemp = Instantiate(gatePrefab, transform.position, Quaternion.identity);
-            gateTemp.transform.Rotate(0, 90, 0);
-            gateTemp.transform.position += new Vector3(0, 1, 0);
+            
         }
 
         if (hasLightBulb) {
@@ -385,7 +392,13 @@ public class Node : MonoBehaviour {
             flashliteTemp.transform.parent = transform;
 
         }
+        if (isCrackable)
+        {
+            transform.GetChild(1).gameObject.transform.Rotate(90,0, 0);
+            transform.GetChild(1).gameObject.transform.position += new Vector3(0, 0.1f, 0);
+        }
     }
+
 
     public ItemData GetData() {
         ItemData itemData = new ItemData() {

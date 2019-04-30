@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -537,6 +537,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -1009,7 +1010,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -1021,6 +1022,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -2163,7 +2165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -2175,6 +2177,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -2186,7 +2189,7 @@ MonoBehaviour:
   triggerState: 0
   isASwitch: 0
   switchState: 0
-  isAGate: 0
+  isAGate: 1
   gateOpen: 0
   hasLightBulb: 0
   hasFlashLight: 0
@@ -2667,7 +2670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -2679,6 +2682,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -3124,7 +3128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -3136,6 +3140,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -3347,7 +3352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -3359,6 +3364,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -3744,7 +3750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -3756,6 +3762,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -3809,7 +3816,7 @@ Transform:
   m_Children:
   - {fileID: 1013892016}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &383284763
 GameObject:
@@ -4175,7 +4182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -4187,6 +4194,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -4306,7 +4314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -4318,6 +4326,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -4624,7 +4633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -4636,6 +4645,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -4809,6 +4819,11 @@ PrefabInstance:
     - target: {fileID: 114782162807892154, guid: 64842a6aac9ac3d42815036daf631562,
         type: 3}
       propertyPath: isCrackable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114782162807892154, guid: 64842a6aac9ac3d42815036daf631562,
+        type: 3}
+      propertyPath: isATrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5172,7 +5187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -5184,6 +5199,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -5873,7 +5889,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4392081872149790, guid: 0bc4ae4c54d23304895a0e6aa8215d2b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bc4ae4c54d23304895a0e6aa8215d2b, type: 3}
@@ -6019,7 +6035,7 @@ Transform:
   m_GameObject: {fileID: 563212057}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 496119502}
   m_RootOrder: 1
@@ -6327,7 +6343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -6339,6 +6355,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -6801,7 +6818,7 @@ Transform:
   - {fileID: 1627003413}
   - {fileID: 88046310}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &719591126
 PrefabInstance:
@@ -7059,6 +7076,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   inScene: 1
+  hasMoved: 0
+  hasStopped: 0
   upBlocked: 0
   downBlocked: 0
   leftBlocked: 0
@@ -7426,7 +7445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -7438,13 +7457,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 1
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -7459,9 +7479,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1001 &763358756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7614,7 +7634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -7626,6 +7646,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -7846,7 +7867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -7858,13 +7879,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -7879,9 +7901,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &786459157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8367,7 +8389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -8379,6 +8401,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -8590,7 +8613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -8602,6 +8625,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -8643,7 +8667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &878827010
 Transform:
   m_ObjectHideFlags: 0
@@ -8651,9 +8675,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878827009}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6, y: 0, z: -4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1138055770}
   m_RootOrder: 1
@@ -8813,7 +8837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -8825,6 +8849,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -8944,7 +8969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -8956,6 +8981,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -9644,6 +9670,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 19.295677
       objectReference: {fileID: 0}
+    - target: {fileID: 4849778923737382, guid: 61c061762895f4875a2f95da407a4f96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.94
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61c061762895f4875a2f95da407a4f96, type: 3}
 --- !u!4 &1013892016 stripped
@@ -9747,7 +9777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -9759,6 +9789,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -9970,7 +10001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -9982,13 +10013,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -10003,9 +10035,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &1037966830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10149,7 +10181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -10161,6 +10193,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 1
   isCrackable: 0
   crackableState: 2
@@ -10730,7 +10763,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 55, y: -35, z: 0}
 --- !u!1 &1116927779
 GameObject:
@@ -10830,7 +10863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -10842,6 +10875,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -11150,7 +11184,7 @@ Transform:
   m_GameObject: {fileID: 1184421608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 755411281}
   m_RootOrder: 1
@@ -11838,6 +11872,18 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 4306220933923994, guid: 64842a6aac9ac3d42815036daf631562, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306220933923994, guid: 64842a6aac9ac3d42815036daf631562, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4306220933923994, guid: 64842a6aac9ac3d42815036daf631562, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1541579486826208, guid: 64842a6aac9ac3d42815036daf631562, type: 3}
       propertyPath: m_Name
       value: Node (12)
@@ -12409,7 +12455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -12421,6 +12467,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -12436,11 +12483,11 @@ MonoBehaviour:
   gateOpen: 0
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 0
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
-  armorID: 0
+  armorID: 99
   sprites:
   - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
   - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
@@ -12908,7 +12955,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4411943528429008, guid: b818e417ff537bd4a8801ddf986fa270, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4411943528429008, guid: b818e417ff537bd4a8801ddf986fa270, type: 3}
       propertyPath: m_LocalScale.x
@@ -13044,7 +13091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -13056,6 +13103,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -13175,7 +13223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -13187,6 +13235,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -13536,7 +13585,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -13548,6 +13597,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -13727,7 +13777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -13739,6 +13789,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -13844,7 +13895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -13856,6 +13907,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -14410,7 +14462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -14422,6 +14474,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -14742,7 +14795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -14754,6 +14807,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -15046,7 +15100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -15058,6 +15112,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -15183,7 +15238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -15195,6 +15250,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -15391,7 +15447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -15403,6 +15459,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -15522,7 +15579,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -15534,6 +15591,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -15906,7 +15964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -15918,13 +15976,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -15939,9 +15998,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &1560113602
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16157,7 +16216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -16169,6 +16228,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -16576,7 +16636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -16588,6 +16648,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -16963,7 +17024,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -16975,6 +17036,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -17186,7 +17248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -17198,6 +17260,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -17441,7 +17504,7 @@ PrefabInstance:
     - target: {fileID: 1676485018974516844, guid: c39437718290518438b3e761aabb3000,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1676485018974516844, guid: c39437718290518438b3e761aabb3000,
         type: 3}
@@ -17812,7 +17875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -17824,6 +17887,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -18135,6 +18199,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1355867647944638, guid: e139ec626f77d4c40a7900640d999495,
         type: 3}
+    - target: {fileID: 114782162807892154, guid: 64842a6aac9ac3d42815036daf631562,
+        type: 3}
+      propertyPath: isATrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114782162807892154, guid: 64842a6aac9ac3d42815036daf631562,
+        type: 3}
+      propertyPath: triggerState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114782162807892154, guid: 64842a6aac9ac3d42815036daf631562,
+        type: 3}
+      propertyPath: isASwitch
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
 --- !u!1 &1701604911
@@ -18386,7 +18465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -18398,6 +18477,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -19099,7 +19179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -19111,6 +19191,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -19307,7 +19388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -19319,6 +19400,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -19438,7 +19520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -19450,6 +19532,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -19661,7 +19744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -19673,6 +19756,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -19792,7 +19876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -19804,6 +19888,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -19997,7 +20082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -20009,6 +20094,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -20356,6 +20442,11 @@ PrefabInstance:
     - target: {fileID: 114782162807892154, guid: 64842a6aac9ac3d42815036daf631562,
         type: 3}
       propertyPath: isCrackable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114782162807892154, guid: 64842a6aac9ac3d42815036daf631562,
+        type: 3}
+      propertyPath: gateOpen
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -21288,7 +21379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -21300,6 +21391,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -21892,7 +21984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -21904,6 +21996,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -22551,7 +22644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -22563,6 +22656,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -22682,7 +22776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -22694,6 +22788,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -22884,7 +22979,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 82db0263f760a7240ad1f164c279e591, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -22896,6 +22991,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2

@@ -23,6 +23,7 @@ public class EnemyManager : TurnManager {
     bool m_isDead = false;
     public bool isScared = false;
     public bool wasScared = false;
+    public bool isOff; // private 
 
     public bool isDead { get { return m_isDead; } }
 
@@ -41,7 +42,7 @@ public class EnemyManager : TurnManager {
 
     public void PlayTurn() {
         
-        if (m_isDead || isScared) {
+        if (m_isDead || isScared || isOff) {
             FinishTurn();
             return;
         }
@@ -50,7 +51,7 @@ public class EnemyManager : TurnManager {
     }
 
     IEnumerator PlayTurnRoutine() {
-
+     
         if (m_gameManager != null && !m_gameManager.IsGameOver) {
             //detect player
             m_enemySensor.UpdateSensor(m_enemyMover.CurrentNode);

@@ -135,6 +135,17 @@ public class Board : MonoBehaviour {
         }
         return TriggerNodes;
     }
+    public void CheckSword()
+    {
+
+        foreach (var sword in m_AllSwords)
+        {
+            if (sword.GetComponentInParent<Armor>().isActive)
+                sword.CaptureEnemies();
+        }
+
+
+    }
 
 
 

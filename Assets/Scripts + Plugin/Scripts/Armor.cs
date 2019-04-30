@@ -34,10 +34,14 @@ public class Armor : MonoBehaviour {
         if (!brokenSword) {
             transform.GetChild(0).gameObject.SetActive(true);
         }
+        isActive = true;
+        m_board.CheckSword();
+        
     }
 
     public void DeactivateSword() {
         transform.GetChild(0).gameObject.SetActive(false);
+        isActive = false;
     }
 
     public void DestroySword() {

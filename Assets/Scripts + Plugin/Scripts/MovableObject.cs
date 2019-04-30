@@ -5,8 +5,10 @@ using UnityEngine;
 public class MovableObject : Mover {
 
     public bool inScene = true;
+    public bool hasMoved = false;
+    public bool hasStopped = false;
 
-     public bool upBlocked = false;
+    public bool upBlocked = false;
      public bool downBlocked = false;
      public bool leftBlocked = false;
      public bool rightBlocked = false;
@@ -41,6 +43,8 @@ public class MovableObject : Mover {
                 m_player.transform.GetChild(2).gameObject.SetActive(false);
                 m_player.hasLightBulb = false;
                 this.MoveRight();
+                hasMoved = true;
+                hasStopped = false;
             }
         }
     }
@@ -53,6 +57,8 @@ public class MovableObject : Mover {
                 m_player.transform.GetChild(2).gameObject.SetActive(false);
                 m_player.hasLightBulb = false;
                 this.MoveLeft();
+                hasMoved = true;
+                hasStopped = false;
             }
         }
     }
@@ -65,6 +71,8 @@ public class MovableObject : Mover {
                 m_player.transform.GetChild(2).gameObject.SetActive(false);
                 m_player.hasLightBulb = false;
                 this.MoveForward();
+                hasMoved = true;
+                hasStopped = false;
             }
         }
     }
@@ -77,6 +85,8 @@ public class MovableObject : Mover {
                 m_player.transform.GetChild(2).gameObject.SetActive(false);
                 m_player.hasLightBulb = false;
                 this.MoveBackward();
+                hasMoved = true;
+                hasStopped = false;
             }
         }  
     }
@@ -92,6 +102,8 @@ public class MovableObject : Mover {
                 m_player.transform.GetChild(2).gameObject.SetActive(false);
                 m_player.hasLightBulb = false;
                 this.MoveLeft();
+                hasMoved = true;
+                hasStopped = false;
             }
         }
     }
@@ -105,6 +117,8 @@ public class MovableObject : Mover {
                 m_player.transform.GetChild(2).gameObject.SetActive(false);
                 m_player.hasLightBulb = false;
                 this.MoveRight();
+                hasMoved = true;
+                hasStopped = false;
             }
         }
     }
@@ -118,6 +132,8 @@ public class MovableObject : Mover {
                 m_player.transform.GetChild(2).gameObject.SetActive(false);
                 m_player.hasLightBulb = false;
                 this.MoveBackward();
+                hasMoved = true;
+                hasStopped = false;
             }
         }
     }
@@ -131,6 +147,8 @@ public class MovableObject : Mover {
                 m_player.transform.GetChild(2).gameObject.SetActive(false);
                 m_player.hasLightBulb = false;
                 this.MoveForward();
+                hasMoved = true;
+                hasStopped = false;
             }
         }
     }
