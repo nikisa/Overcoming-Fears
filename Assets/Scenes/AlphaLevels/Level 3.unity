@@ -1479,10 +1479,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: armorID
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -2190,10 +2195,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 0
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -2571,7 +2576,7 @@ PrefabInstance:
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -2698,7 +2703,7 @@ MonoBehaviour:
   gateOpen: 0
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 0
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -3380,7 +3385,7 @@ MonoBehaviour:
   gateOpen: 0
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 0
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -5215,10 +5220,10 @@ MonoBehaviour:
   gateOpen: 0
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 0
-  mirrorID: 0
-  trapID: 0
-  pushingWallID: 0
+  gateID: 100
+  mirrorID: 100
+  trapID: 100
+  pushingWallID: 100
   armorID: 1
   sprites:
   - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
@@ -5511,10 +5516,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: armorID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: isActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -6240,6 +6255,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: armorID
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
@@ -7659,10 +7679,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -8106,10 +8126,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: armorID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: isActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -8414,10 +8444,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -8862,10 +8892,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -9173,7 +9203,7 @@ PrefabInstance:
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -10206,10 +10236,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -11150,10 +11180,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: armorID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: isActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -12935,7 +12975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4411943528429008, guid: b818e417ff537bd4a8801ddf986fa270, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4411943528429008, guid: b818e417ff537bd4a8801ddf986fa270, type: 3}
       propertyPath: m_LocalRotation.x
@@ -13248,10 +13288,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -13737,10 +13777,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: armorID
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -15125,10 +15170,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -15263,10 +15308,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -15604,10 +15649,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -16661,10 +16706,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -19413,10 +19458,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -19545,10 +19590,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -19772,7 +19817,7 @@ MonoBehaviour:
   gateOpen: 0
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -19983,7 +20028,7 @@ PrefabInstance:
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -20107,10 +20152,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -22088,10 +22133,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: armorID
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -22498,10 +22548,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: armorID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2775251454287485324, guid: 225bc310c4af8934c9c819ebc7bc8d07,
+        type: 3}
+      propertyPath: isActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2775251453132076689, guid: 225bc310c4af8934c9c819ebc7bc8d07,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 225bc310c4af8934c9c819ebc7bc8d07, type: 3}
@@ -22664,7 +22724,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
   - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
   - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
-  isATrigger: 0
+  isATrigger: 1
   triggerState: 0
   isASwitch: 0
   switchState: 0
@@ -22672,7 +22732,7 @@ MonoBehaviour:
   gateOpen: 0
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 0
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0
@@ -22801,10 +22861,10 @@ MonoBehaviour:
   isASwitch: 0
   switchState: 0
   isAGate: 1
-  gateOpen: 0
+  gateOpen: 1
   hasLightBulb: 0
   hasFlashLight: 0
-  gateID: 2
+  gateID: 1
   mirrorID: 0
   trapID: 0
   pushingWallID: 0

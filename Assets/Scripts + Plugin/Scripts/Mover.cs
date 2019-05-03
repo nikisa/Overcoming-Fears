@@ -41,7 +41,7 @@ public class Mover : MonoBehaviour {
         UpdateCurrentNode();
     }
 
-    public void Move(Vector3 destinationPos, float delayTime = 0.25f) {
+    public void Move(Vector3 destinationPos, float delayTime = 0.1f) {
 
         if (isMoving) {
             return;
@@ -88,7 +88,7 @@ public class Mover : MonoBehaviour {
 
         if (faceDestination) {
             FaceDestination();
-            yield return new WaitForSeconds(0.25f);
+            yield return new WaitForSeconds(0.1f);
         }
 
         //turn to face destination
@@ -148,7 +148,7 @@ public class Mover : MonoBehaviour {
 
         iTween.RotateTo(gameObject, iTween.Hash(
             "y", newY,
-            "delay", 0.3f,
+            "delay", 0.2f,
             "easetype", easeType,
             "time", rotateTime
             ));

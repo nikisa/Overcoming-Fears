@@ -16,8 +16,6 @@ public class Armor : MonoBehaviour {
 
     public Node CurrentNode { get { return m_currentNode; } }
 
-
-
     private void Awake() {
         m_board = Object.FindObjectOfType<Board>().GetComponent<Board>();
     }
@@ -31,17 +29,28 @@ public class Armor : MonoBehaviour {
     }
 
     public void ActivateSword() {
-        if (!brokenSword) {
+        isActive = !isActive;
+        if (!brokenSword && isActive == true) {
             transform.GetChild(0).gameObject.SetActive(true);
         }
-        isActive = true;
+
+        else if (isActive == false) {
+            transform.GetChild(0).gameObject.SetActive(false);
+            Debug.Log(transform.GetChild(0).gameObject.activeSelf + " --- " + transform.GetChild(0).gameObject.activeSelf);
+        }
+
         m_board.CheckSword();
         
     }
 
     public void DeactivateSword() {
-        transform.GetChild(0).gameObject.SetActive(false);
-        isActive = false;
+        isActive = !isActive;
+        if (isActive == false) {
+            transform.GetChild(0).gameObject.SetActive(false);
+        }
+        else if (isActive == true) {
+            transform.GetChild(0).gameObject.SetActive(true);
+        }
     }
 
     public void DestroySword() {
@@ -53,6 +62,8 @@ public class Armor : MonoBehaviour {
         return m_board.FindNodeAt(transform.position);
     }
 
-   
-
+    public Node FindSwordNode() {
+        
+        return m_board.FindNodeAt(transform.position + (transform.forward * Board.spacing));
+    }
 }

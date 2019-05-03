@@ -152,8 +152,7 @@ public class MovableObject : Mover {
             }
         }
     }
-
-
+    
     //PULL___________________________________________
 
 

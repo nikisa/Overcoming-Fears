@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -219,13 +219,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 1
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -240,9 +241,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &19689045
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,7 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -350,13 +351,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -371,9 +373,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &39852406
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -481,13 +483,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -502,9 +505,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &45522066
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,7 +770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -779,13 +782,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -800,9 +804,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &70442058
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,7 +902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -910,13 +914,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -931,9 +936,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &81645741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,7 +1203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -1210,13 +1215,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 1
@@ -1231,9 +1237,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!4 &104340342 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4241675320853844, guid: 61bc9fee209a10b4d81280780d69318b,
@@ -1282,22 +1288,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &104562434
@@ -1663,34 +1653,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &200570942
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2050,20 +2012,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &272676272
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2324,7 +2272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -2336,13 +2284,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -2357,9 +2306,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &322758730
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,18 +2351,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &322758733
@@ -2796,7 +2733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -2808,13 +2745,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -2829,9 +2767,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &376160157
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,7 +2865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -2939,13 +2877,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -2960,9 +2899,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &378398611
 GameObject:
   m_ObjectHideFlags: 0
@@ -3545,26 +3484,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &453717976
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4097,7 +4016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -4109,13 +4028,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -4130,9 +4050,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!4 &522218473 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4241675320853844, guid: 61bc9fee209a10b4d81280780d69318b,
@@ -4459,38 +4379,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &539171052
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4675,7 +4563,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -4687,13 +4575,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -4708,9 +4597,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &558905371
 GameObject:
   m_ObjectHideFlags: 0
@@ -4738,7 +4627,7 @@ Transform:
   m_GameObject: {fileID: 558905371}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 1728500420}
   m_RootOrder: 1
@@ -4753,30 +4642,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &558905374
@@ -5112,32 +4977,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &575513886
@@ -5520,32 +5359,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &633826866
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5843,7 +5656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -5855,13 +5668,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -5876,9 +5690,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &713500965
 GameObject:
   m_ObjectHideFlags: 0
@@ -5921,18 +5735,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &713500968
@@ -6034,6 +5836,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   inScene: 1
+  hasMoved: 0
+  hasStopped: 0
   upBlocked: 0
   downBlocked: 0
   leftBlocked: 0
@@ -6377,36 +6181,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &775000232
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6488,7 +6262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -6500,13 +6274,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -6521,9 +6296,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &786459157
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6899,22 +6674,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &842012820
@@ -7378,7 +7137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -7390,13 +7149,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 1
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -7411,9 +7171,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &902337791
 GameObject:
   m_ObjectHideFlags: 0
@@ -7456,20 +7216,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &902337794
@@ -7789,7 +7535,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -7801,13 +7547,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -7822,9 +7569,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!4 &967315860 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4519520851303354, guid: f0f94d3297ac7764895e4627d76bca18,
@@ -8105,24 +7852,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &995148903
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8266,7 +7995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -8278,13 +8007,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -8299,9 +8029,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1001 &1013892015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8476,7 +8206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -8488,13 +8218,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -8509,9 +8240,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1037966828
 GameObject:
   m_ObjectHideFlags: 0
@@ -8545,7 +8276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -8557,13 +8288,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -8578,9 +8310,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &1037966830
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8873,7 +8605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -8885,13 +8617,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -8906,9 +8639,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1083911171
 GameObject:
   m_ObjectHideFlags: 0
@@ -9114,7 +8847,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -9126,13 +8859,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -9147,9 +8881,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1120158519
 GameObject:
   m_ObjectHideFlags: 0
@@ -9192,36 +8926,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1120158522
@@ -9314,18 +9018,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1129579048
@@ -9488,7 +9180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -9500,13 +9192,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -9521,9 +9214,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1146864503
 GameObject:
   m_ObjectHideFlags: 0
@@ -9566,20 +9259,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1146864506
@@ -9672,22 +9351,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1184841613
@@ -10233,7 +9896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -10245,13 +9908,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -10266,9 +9930,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1001 &1214476997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11033,7 +10697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -11045,13 +10709,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -11066,9 +10731,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &1312240816
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11150,7 +10815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -11162,13 +10827,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 1
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -11183,9 +10849,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &1314848884
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11469,30 +11135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1325763226
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11728,7 +11370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -11740,13 +11382,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -11761,9 +11404,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &1362343073
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11907,7 +11550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -11919,13 +11562,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 1
@@ -11940,9 +11584,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1382126310
 GameObject:
   m_ObjectHideFlags: 0
@@ -12119,7 +11763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -12131,13 +11775,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -12152,9 +11797,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1407979187
 GameObject:
   m_ObjectHideFlags: 0
@@ -12197,38 +11842,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1407979190
@@ -12374,7 +11987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -12386,13 +11999,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 1
@@ -12407,9 +12021,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1434723053
 GameObject:
   m_ObjectHideFlags: 0
@@ -12612,24 +12226,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1481725226
@@ -12930,7 +12526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -12942,13 +12538,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 1
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -12963,9 +12560,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &1560113602
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13047,7 +12644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -13059,13 +12656,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -13080,9 +12678,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &1570941425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13568,7 +13166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -13580,13 +13178,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -13601,9 +13200,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1626002000
 GameObject:
   m_ObjectHideFlags: 0
@@ -13896,36 +13495,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1636440401
@@ -14569,28 +14138,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1723258817
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14811,7 +14358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -14823,13 +14370,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 1
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -14844,9 +14392,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1736472937
 GameObject:
   m_ObjectHideFlags: 0
@@ -15034,7 +14582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -15046,13 +14594,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -15067,9 +14616,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1750990845
 GameObject:
   m_ObjectHideFlags: 0
@@ -15209,32 +14758,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1761713850
@@ -15539,7 +15062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -15551,13 +15074,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -15572,9 +15096,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1864394874
 GameObject:
   m_ObjectHideFlags: 0
@@ -15617,20 +15141,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1864394877
@@ -15913,7 +15423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -15925,13 +15435,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -15946,9 +15457,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1001 &1910485826
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16225,7 +15736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -16237,13 +15748,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -16258,9 +15770,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &1937317572
 GameObject:
   m_ObjectHideFlags: 0
@@ -16380,20 +15892,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1941149813
@@ -16545,18 +16043,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1977872499
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16632,7 +16118,7 @@ Transform:
   m_GameObject: {fileID: 1982800719}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 17116359}
   m_RootOrder: 1
@@ -16647,34 +16133,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1982800722
@@ -16856,36 +16314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &2009497457
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16976,34 +16404,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &2011819293
@@ -17277,7 +16677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -17289,13 +16689,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -17310,9 +16711,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!212 &2042723825
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17477,18 +16878,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &2044481564
@@ -17714,7 +17103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -17726,13 +17115,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -17747,9 +17137,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &2051987298
 GameObject:
   m_ObjectHideFlags: 0
@@ -18050,7 +17440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -18062,13 +17452,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -18083,9 +17474,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &2074946724
 GameObject:
   m_ObjectHideFlags: 0
@@ -18128,22 +17519,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ed5a36a9b436de4590dbc1b8214c925, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &2074946727
@@ -18583,7 +17958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -18595,13 +17970,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -18616,9 +17992,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &2124131196
 GameObject:
   m_ObjectHideFlags: 0
@@ -18790,7 +18166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -18802,13 +18178,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -18823,9 +18200,9 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
 --- !u!1 &2140119904
 GameObject:
   m_ObjectHideFlags: 0
@@ -18921,7 +18298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   switchPrefab: {fileID: 100002, guid: 1b937454eb0ed974d9ba2aa30e2c6b54, type: 3}
-  gatePrefab: {fileID: 1812688872391036, guid: b90fa82560adaad4e8b641fde29a0ce3, type: 3}
+  gatePrefab: {fileID: 100000, guid: 34ee40affc58bc242a542ad9a0151bb6, type: 3}
   triggerPrefab: {fileID: 100000, guid: ec407f9876fe28647ad92f978c39068d, type: 3}
   lightBulbPrefab: {fileID: 100000, guid: 8f5f2099345735d4d90bf68a7e02edc9, type: 3}
   flashlitePrefab: {fileID: 100000, guid: dc44692f7de7a554d9fa4d0154ea9ceb, type: 3}
@@ -18933,13 +18310,14 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  MO: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
   currentTexture:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}
   isATrigger: 0
   triggerState: 0
   isASwitch: 0
@@ -18954,6 +18332,6 @@ MonoBehaviour:
   pushingWallID: 0
   armorID: 0
   sprites:
-  - {fileID: 21300000, guid: f6ffbfc9a27cb844fabdc6c331027d62, type: 3}
-  - {fileID: 21300000, guid: e5f5b88821dd5f94f8fea71fcbb4b13d, type: 3}
-  - {fileID: 21300000, guid: db16eb65b260db94bb3c4ae1539a9e7a, type: 3}
+  - {fileID: 21300000, guid: 01e9851eb39aef046af4fbed250c1427, type: 3}
+  - {fileID: 21300000, guid: 03a431c939f14db419d86078b37fbe4f, type: 3}
+  - {fileID: 21300000, guid: 5a52306caaefd6c47924a6f27e07c00a, type: 3}

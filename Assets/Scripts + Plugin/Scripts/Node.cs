@@ -39,7 +39,12 @@ public class Node : MonoBehaviour {
 
     public LayerMask obstacleLayer;
 
+    [HideInInspector]
     public MovableObject MO;
+
+    [HideInInspector]
+    public Mover mover;
+
 
     public bool isLevelGoal = false;
 
@@ -80,7 +85,6 @@ public class Node : MonoBehaviour {
     public Sprite[] sprites;
 
 
-
     private void Awake() {
         m_board = Object.FindObjectOfType<Board>();
         m_coordinate = new Vector2(transform.position.x, transform.position.z);
@@ -97,6 +101,15 @@ public class Node : MonoBehaviour {
             if (m_board != null) {
                 m_neighborNodes = FindNeighbors(m_board.AllNodes);
                 showModel();
+            }
+        }
+
+        if (isATrigger) {
+            foreach (var _mover in m_board.FindMovers()) {
+                if (_mover.transform.position == transform.position) {
+                    mover = _mover;
+                    //UpdateTriggerToTrue();
+                }
             }
         }
     }
@@ -286,24 +299,21 @@ public class Node : MonoBehaviour {
     }
 
 
-    public void SetGateOpen() {
-        gateOpen = true;
+    public void SetGateOpen() { //PROVA____________________________________________________________________________________________________________________________________
+        gateOpen = !gateOpen;
         if (gateTemp != null)
         {
-            gateTemp.SetActive(false);
+            gateTemp.SetActive(!gateOpen);
         }
 
     }
 
     public void SetGateClose() {
-        gateOpen = false;
+        gateOpen = !gateOpen;
         if (gateTemp!=null)
         {
-             gateTemp.SetActive(true);
+             gateTemp.SetActive(!gateOpen);
         }
-
-       
-
     }
 
     public bool UpdateGateToOpen(int id) {

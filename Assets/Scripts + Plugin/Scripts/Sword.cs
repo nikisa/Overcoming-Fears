@@ -21,6 +21,7 @@ public class Sword : MonoBehaviour {
         return m_board.FindNodeAt(transform.position);
     }
 
+
     //private void OnTriggerExit(Collider other) {
     //    Debug.Log("tua madre");
     //    if (other.gameObject.tag == "Enemy") {
@@ -29,7 +30,7 @@ public class Sword : MonoBehaviour {
     //}
 
 
-   public void CaptureEnemies() {
+    public void CaptureEnemies() {
         if (m_board != null) {
             List<EnemyManager> enemies = m_board.FindEnemiesAt(m_board.FindNodeAt(transform.position));
             if (enemies.Count != 0) {

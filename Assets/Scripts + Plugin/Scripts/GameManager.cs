@@ -264,14 +264,11 @@ public class GameManager : MonoBehaviour {
 
     public void UpdateTurn() {
 
-       // CheckSword();
+        // CheckSword();
         checkNodeForObstacles();
         LightBulbNode();
         FearEnemies();
         FlashLightNode();
-      
-
-        
 
 
         foreach (var enemy in m_enemies) {
@@ -291,7 +288,7 @@ public class GameManager : MonoBehaviour {
                 else {
                     enemy.SetMovementType(enemy.GetFirstMovementType());
                 }
-                
+
             }
         }
 
@@ -306,21 +303,23 @@ public class GameManager : MonoBehaviour {
                 PlayEnemyTurn();
                 m_movableObjects = GetMovableObjects();
             }
+            triggerNode();
         }
+
 
         else if (m_currentTurn == Turn.Enemy) {
 
-            triggerNode();
+
             if (IsEnemyTurnComplete()) {
-              crackNode();
-              PlayPlayerTurn();
-                
+                crackNode();
+                PlayPlayerTurn();
+
             }
             NotMovingMovable();
         }
-       
+
     }
-    
+
 
     public void crackNode() {
 
@@ -345,13 +344,12 @@ public class GameManager : MonoBehaviour {
 
             //______M.O. ON CRACKNODE___________________
             foreach (MovableObject movableObject in movableObjects) {
-                if  (movableObject.hasMoved)
-                {
-                  
-                     node.UpdateCrackableState();
-                     node.UpdateCrackableTexture();
+                if (movableObject.hasMoved) {
+
+                    node.UpdateCrackableState();
+                    node.UpdateCrackableTexture();
                 }
-             
+
 
                 if (node.GetCrackableState() == 0) {
                     m_board.AllMovableObjects.Remove(movableObject);
@@ -381,7 +379,7 @@ public class GameManager : MonoBehaviour {
 
             //______Swords ON CRACKNODE___________________
 
-        
+
         }
 
         //______ENEMY ON CRACKNODE___________________
@@ -399,47 +397,82 @@ public class GameManager : MonoBehaviour {
 
 
     public void triggerNodePlayerTurn() {
+        Node previousTempNode = m_board.GetPreviousPlayerNode(); //serve per vedere se il previous è un trigger altrimenti mette a false ad ogni turno
+
         if (m_board.playerNode.isATrigger) {
             m_board.SetPreviousPlayerNode(m_board.playerNode);
             m_board.playerNode.UpdateTriggerToTrue();
         }
-        else if (m_board.GetPreviousPlayerNode() != null) {
+        else if (m_board.GetPreviousPlayerNode() != null && previousTempNode.isATrigger) {
             m_board.UpdateTriggerToFalse();
+            Debug.Log("TRIGGER A FALSE");
+            m_board.SetPreviousPlayerNode(null);
         }
+        Debug.Log(m_board.GetPreviousPlayerNode());
+
     }
 
     public void triggerNode() {
 
         List<EnemyManager> enemies;
         List<MovableObject> movableObjects;
+        List<Armor> armors;
 
         foreach (var node in m_board.TriggerNodes) {
             enemies = m_board.FindEnemiesAt(node);
             foreach (EnemyManager enemy in enemies) {
 
+                if (node.mover != enemy.m_enemyMover) {
 
 
-                if (enemy.GetEnemySensor.FindEnemyNode().isATrigger) {
+                    node.mover = enemy.m_enemyMover;
+
+
+                    //if (enemy.GetEnemySensor.FindEnemyNode().isATrigger) {
                     enemy.GetEnemySensor.SetPreviousEnemyNode(enemy.GetEnemySensor.FindEnemyNode());
                     enemy.GetEnemySensor.FindEnemyNode().UpdateTriggerToTrue();
 
                     //Debug.Log(enemy.GetEnemySensor.GetPreviousEnemyNode());
-                }
-                else if (enemy.GetEnemySensor.GetPreviousEnemyNode() != null) {
-                    enemy.GetEnemySensor.GetPreviousEnemyNode().triggerState = false;
+                    //}
+                    /*else*/
+                    if (enemy.GetEnemySensor.GetPreviousEnemyNode() != null) {
+                        enemy.GetEnemySensor.GetPreviousEnemyNode().triggerState = false;
+                    }
                 }
             }
 
+
             movableObjects = m_board.FindMovableObjectsAt(node);
             foreach (MovableObject movableObject in movableObjects) {
-                if (movableObject.FindMovableObjectNode().isATrigger) {
-                    movableObject.SetPreviousMovableObjectNode(movableObject.FindMovableObjectNode());
-                    movableObject.FindMovableObjectNode().UpdateTriggerToTrue();
-                }
-                else if (movableObject.GetPreviousMovableObjectNode() != null) {
-                    movableObject.GetPreviousMovableObjectNode().triggerState = false;
+
+                if (node.mover != movableObject) {
+
+                    node.mover = movableObject;
+                    if (movableObject.FindMovableObjectNode().isATrigger) {
+                        movableObject.SetPreviousMovableObjectNode(movableObject.FindMovableObjectNode());
+                        movableObject.FindMovableObjectNode().UpdateTriggerToTrue();
+                    }
+                    else if (movableObject.GetPreviousMovableObjectNode() != null) {
+                        movableObject.GetPreviousMovableObjectNode().triggerState = false;
+                    }
                 }
             }
+
+            if (enemies.Count == 0 && movableObjects.Count == 0) {
+                node.mover = null;
+            }
+
+            armors = m_board.FindArmorsAt(node);
+            foreach (Armor armor in armors) {
+                if (armor.FindSwordNode().isATrigger && armor.isActive) {
+                    Debug.Log(m_board.FindNodeAt(transform.position + (transform.forward * Board.spacing)));
+                    armor.FindSwordNode().UpdateTriggerToTrue(); //COSì NON FUNZIONA MADONNA PORCONA 
+                }
+                else if (armor.FindSwordNode().isATrigger && !armor.isActive) {
+                    armor.FindSwordNode().triggerState = false;
+                }
+            }
+
         }
     }
 
@@ -507,52 +540,40 @@ public class GameManager : MonoBehaviour {
             }
         }
     }
-    public void EnemyOnOff()
-    {
-        foreach (var enemy in m_enemies)
-        {
-            if(enemy!=null)
-            {
-                if (m_board.FindNodeAt(enemy.transform.position).isAGate && !m_board.FindNodeAt(enemy.transform.position).gateOpen)
-                {
-                enemy.isOff = true;
+    public void EnemyOnOff() {
+        foreach (var enemy in m_enemies) {
+            if (enemy != null) {
+                if (m_board.FindNodeAt(enemy.transform.position).isAGate && !m_board.FindNodeAt(enemy.transform.position).gateOpen) {
+                    enemy.isOff = true;
                 }
-                else if (m_board.FindNodeAt(enemy.transform.position).isAGate && m_board.FindNodeAt(enemy.transform.position).gateOpen)
-                {
-                enemy.isOff = false;
-            
-            
+                else if (m_board.FindNodeAt(enemy.transform.position).isAGate && m_board.FindNodeAt(enemy.transform.position).gateOpen) {
+                    enemy.isOff = false;
+
+
+                }
             }
-           }
         }
-     
+
     }
-    public void SaveMO()
-    {
-        foreach (var crackcableNode in m_board.FindCrackableNodes())
-        {
+    public void SaveMO() {
+        foreach (var crackcableNode in m_board.FindCrackableNodes()) {
             foreach (var movableOnCrack in m_board.FindMovableObjectsAt(crackcableNode))   // prende il movableObject sopra il crackNode e lo salva 
             {
                 crackcableNode.MO = movableOnCrack;
             }
-            
+
         }
     }
-    public void NotMovingMovable()
-    {
-        foreach (var movableObject in m_movableObjects)
-        {
+    public void NotMovingMovable() {
+        foreach (var movableObject in m_movableObjects) {
             movableObject.hasMoved = false;
-            movableObject.hasStopped= true;
+            movableObject.hasStopped = true;
         }
     }
-    
-    public void InitSword()
-    {
-        foreach (var armor in m_armors)
-        {
-            if (!armor.isActive)
-            {
+
+    public void InitSword() {
+        foreach (var armor in m_armors) {
+            if (!armor.isActive) {
                 armor.transform.GetChild(0).gameObject.SetActive(false);
             }
         }

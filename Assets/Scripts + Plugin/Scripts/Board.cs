@@ -44,6 +44,10 @@ public class Board : MonoBehaviour {
     List<Sword> m_AllSwords = new List<Sword>();
     public List<Sword> AllSwords { get { return m_AllSwords; } }
 
+    List<Mover> m_AllMovers = new List<Mover>();
+    public List<Mover> AllMovers { get { return m_AllMovers; } }
+
+
 
     Node m_playerNode;
 
@@ -90,6 +94,7 @@ public class Board : MonoBehaviour {
         m_AllPushingWalls = FindPushingWalls();
         m_AllArmors = FindArmors();
         m_AllSwords = FindSwords();
+        m_AllMovers = FindMovers();
 
         GetNodeList();
         m_crackableNodes = FindCrackableNodes();
@@ -143,8 +148,6 @@ public class Board : MonoBehaviour {
             if (sword.GetComponentInParent<Armor>().isActive)
                 sword.CaptureEnemies();
         }
-
-
     }
 
 
@@ -213,7 +216,7 @@ public class Board : MonoBehaviour {
         return PreviousPlayerNode;
     }
 
-    public void UpdateTriggerToFalse() {
+    public void UpdateTriggerToFalse() {    
         PreviousPlayerNode.triggerState = false;
         PreviousPlayerNode.UpdateGateToClose(PreviousPlayerNode.GetGateID());
         PreviousPlayerNode.ArmorDeactivation(PreviousPlayerNode.GetArmorID());
@@ -256,7 +259,7 @@ public class Board : MonoBehaviour {
         List<Armor> foundArmors = new List<Armor>();
         Armor[] armors = Object.FindObjectsOfType<Armor>() as Armor[];
         foundArmors = armors.ToList();
-
+       
         return foundArmors;
     }
 
@@ -265,7 +268,21 @@ public class Board : MonoBehaviour {
         Sword[] swords = Object.FindObjectsOfType<Sword>() as Sword[];
         foundSwords = swords.ToList();
 
+
+        foreach (var sword in swords) {
+            sword.gameObject.SetActive(sword.transform.parent.GetComponent<Armor>().isActive);
+        }
+
+
         return foundSwords;
+    }
+
+    public List<Mover> FindMovers() {
+        List<Mover> foundMovers = new List<Mover>();
+        Mover[] movers = Object.FindObjectsOfType<Mover>() as Mover[];
+        foundMovers = movers.ToList();
+
+        return foundMovers;
     }
 
 

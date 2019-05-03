@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMover : Mover {
 
-    float playerMovementDelay = 0.26f;
+    float playerMovementDelay = 0.1f;
 
     PlayerCompass m_playerCompass;
 
