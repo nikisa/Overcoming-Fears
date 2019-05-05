@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: a7272a7cbaf457c479586860a0ea4d4a
+guid: 5a572bf88790beb4b8bc93015a035ee2
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: lambert1
+    2100000: Mat_palette
     2300000: //RootNode
     3300000: //RootNode
     4300000: Wall_Corridor
   externalObjects: {}
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
