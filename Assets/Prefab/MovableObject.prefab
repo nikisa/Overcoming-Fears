@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 055acb1891d064c2097375f789c629a5, type: 2}
+  - {fileID: 2100000, guid: 7b491d7536f937e419027dd0c4eefc1a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
   faceDestination: 0
   isMoving: 0
   easeType: 17
-  moveSpeed: 1.5
+  moveSpeed: 3
   rotateTime: 0.5
   iTweenDelay: 0
   finishMovementEvent:
@@ -187,6 +187,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   inScene: 1
+  hasMoved: 0
+  hasStopped: 0
   upBlocked: 0
   downBlocked: 0
   leftBlocked: 0

@@ -15,7 +15,7 @@ public class GraphicMover : MonoBehaviour {
     public Transform endXform;
 
     public float moveTime = 1f;
-    public float delay = 0f;
+    public float delay = 0;
     public iTween.LoopType loopType = iTween.LoopType.none;
 
     public iTween.EaseType easeType = iTween.EaseType.easeOutExpo;

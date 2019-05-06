@@ -2,11 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(PlayerMover))]
 [RequireComponent(typeof(PlayerInput))]
 
 public class PlayerManager : TurnManager {
+
+    static int i = 0; //indice provvisorio per il cambio della scena
 
     public PlayerMover playerMover;
     public PlayerInput playerInput;
@@ -43,6 +46,25 @@ public class PlayerManager : TurnManager {
         }
 
         playerInput.GetKeyInput();
+
+
+        if (Input.GetKeyDown(KeyCode.KeypadPlus)) {
+            i++;
+            if (i > 10)
+                i = 0;
+            Debug.Log(i);
+            SceneChanger(i);
+        }
+        else if (Input.GetKeyDown(KeyCode.KeypadMinus)) {
+            i--;
+            if (i < 0)
+                i = 10;
+            Debug.Log(i);
+            SceneChanger(i);
+        }
+
+        
+        
 
         if (m_board.playerNode != null) {
 
@@ -345,4 +367,51 @@ public class PlayerManager : TurnManager {
         };
         return itemData;
     }
+
+
+
+    #region sceneChanger
+
+    public void SceneChanger(int i) {
+        
+        switch (i) {
+            case 0:
+                SceneManager.LoadScene("Level 1");
+                break;
+            case 1:
+                SceneManager.LoadScene("Level 2");
+                break;
+            case 2:
+                SceneManager.LoadScene("Level 3");
+                break;
+            case 3:
+                SceneManager.LoadScene("Level 4");
+                break;
+            case 4:
+                SceneManager.LoadScene("Level 5");
+                break;
+            case 5:
+                SceneManager.LoadScene("Level 6");
+                break;
+            case 6:
+                SceneManager.LoadScene("Level 7");
+                break;
+            case 7:
+                SceneManager.LoadScene("Level 8");
+                break;
+            case 8:
+                SceneManager.LoadScene("Level 9");
+                break;
+            case 9:
+                SceneManager.LoadScene("Level 10");
+                break;
+        }
+
+
+
+    }
+
+    #endregion //PROVVISORIO
+
+
 }

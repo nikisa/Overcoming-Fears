@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour {
     bool m_hasLevelFinished = false;
     public bool HasLevelFinished { get { return m_hasLevelFinished; } set { m_hasLevelFinished = value; } }
 
-    public float delay = 1f;
+    public float delay  = 0;
 
 
     public UnityEvent setupEvent;
@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour {
     }
 
     void Start() {
-        Debug.Log(m_enemies.Count);
+
         if (m_player != null && m_board != null) {
             InitSword();
             StartCoroutine("RunGameLoop");
@@ -103,7 +103,7 @@ public class GameManager : MonoBehaviour {
 
         Debug.Log("START LEVEL");
 
-        m_player.playerInput.InputEnabled = false;
+        m_player.playerInput.InputEnabled = false;//
         while (!m_hasLevelStarted) {
 
 
@@ -169,7 +169,7 @@ public class GameManager : MonoBehaviour {
 
         Debug.Log("END LEVEL");
 
-        m_player.playerInput.InputEnabled = false;
+        m_player.playerInput.InputEnabled = false;//
 
         if (endLevelEvent != null) {
             endLevelEvent.Invoke();
@@ -408,7 +408,7 @@ public class GameManager : MonoBehaviour {
             Debug.Log("TRIGGER A FALSE");
             m_board.SetPreviousPlayerNode(null);
         }
-        Debug.Log(m_board.GetPreviousPlayerNode());
+        
 
     }
 
@@ -581,7 +581,7 @@ public class GameManager : MonoBehaviour {
 
     IEnumerator CheckSpottedPosition() {
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.05f);
 
         foreach (var enemy in m_enemies) {
 

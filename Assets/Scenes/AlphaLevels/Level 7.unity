@@ -220,6 +220,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 1
   crackableState: 2
@@ -352,6 +353,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -484,6 +486,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -783,6 +786,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -915,6 +919,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -1216,6 +1221,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -1412,6 +1418,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cfc70ec07025b41b458133bf846c9e, type: 3}
+--- !u!4 &180439050 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 180439049}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &186838595
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,12 +2165,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293974265}
   m_Mesh: {fileID: 4300000, guid: 0e51fdc9dea0de24b89e258a538740c8, type: 3}
---- !u!4 &313668433 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4489237949829070, guid: c3cfc70ec07025b41b458133bf846c9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 875746348}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &314264847
 Transform:
   m_ObjectHideFlags: 0
@@ -2285,6 +2290,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -2746,6 +2752,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -2878,6 +2885,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -3589,6 +3597,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cfc70ec07025b41b458133bf846c9e, type: 3}
+--- !u!4 &471647392 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 471647391}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &481380205
 GameObject:
   m_ObjectHideFlags: 0
@@ -4029,6 +4042,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -4112,6 +4126,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cfc70ec07025b41b458133bf846c9e, type: 3}
+--- !u!4 &524976320 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 524976319}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &528863989
 GameObject:
   m_ObjectHideFlags: 0
@@ -4576,6 +4595,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -5669,6 +5689,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -5785,12 +5806,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &718049436 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4489237949829070, guid: c3cfc70ec07025b41b458133bf846c9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 524976319}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &738387378
 GameObject:
   m_ObjectHideFlags: 0
@@ -6275,6 +6290,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -6873,6 +6889,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cfc70ec07025b41b458133bf846c9e, type: 3}
+--- !u!4 &875746349 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 875746348}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &878827009
 GameObject:
   m_ObjectHideFlags: 0
@@ -7150,6 +7171,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 1
   isCrackable: 0
   crackableState: 2
@@ -7548,6 +7570,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -8008,6 +8031,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -8219,6 +8243,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -8289,6 +8314,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -8618,6 +8644,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -8860,6 +8887,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -9193,6 +9221,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -9909,6 +9938,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -10173,12 +10203,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1222959262}
   m_Mesh: {fileID: 4300000, guid: 0e51fdc9dea0de24b89e258a538740c8, type: 3}
---- !u!4 &1233176909 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4489237949829070, guid: c3cfc70ec07025b41b458133bf846c9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 471647391}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1256456179
 GameObject:
   m_ObjectHideFlags: 0
@@ -10456,6 +10480,46 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.2
       objectReference: {fileID: 0}
+    - target: {fileID: 23652544632051252, guid: b818e417ff537bd4a8801ddf986fa270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ed34e5d436adae4cb06e328d23657a3, type: 2}
+    - target: {fileID: 23652544632051252, guid: b818e417ff537bd4a8801ddf986fa270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 23652544632051252, guid: b818e417ff537bd4a8801ddf986fa270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 23652544632051252, guid: b818e417ff537bd4a8801ddf986fa270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 23652544632051252, guid: b818e417ff537bd4a8801ddf986fa270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 23652544632051252, guid: b818e417ff537bd4a8801ddf986fa270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[5]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 23652544632051252, guid: b818e417ff537bd4a8801ddf986fa270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[6]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 23652544632051252, guid: b818e417ff537bd4a8801ddf986fa270,
+        type: 3}
+      propertyPath: m_Materials.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b818e417ff537bd4a8801ddf986fa270, type: 3}
 --- !u!4 &1304183000 stripped
@@ -10710,6 +10774,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -10828,6 +10893,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 1
   crackableState: 2
@@ -11003,13 +11069,13 @@ Transform:
   m_Children:
   - {fileID: 742388037}
   - {fileID: 1478395516}
-  - {fileID: 718049436}
-  - {fileID: 313668433}
-  - {fileID: 1985664067}
-  - {fileID: 1504541960}
+  - {fileID: 524976320}
+  - {fileID: 875746349}
+  - {fileID: 1582259283}
+  - {fileID: 180439050}
   - {fileID: 1304183000}
-  - {fileID: 1233176909}
-  - {fileID: 2055937819}
+  - {fileID: 471647392}
+  - {fileID: 1966716822}
   - {fileID: 967315860}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -11383,6 +11449,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -11563,6 +11630,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -11776,6 +11844,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -12000,6 +12069,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -12359,12 +12429,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2070385088}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1504541960 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4489237949829070, guid: c3cfc70ec07025b41b458133bf846c9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 180439049}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1505419601 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4241675320853844, guid: 61bc9fee209a10b4d81280780d69318b,
@@ -12539,6 +12603,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 1
   crackableState: 2
@@ -12657,6 +12722,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -12786,6 +12852,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cfc70ec07025b41b458133bf846c9e, type: 3}
+--- !u!4 &1582259283 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1582259282}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1590078969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13179,6 +13250,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -14371,6 +14443,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 1
   crackableState: 2
@@ -14595,6 +14668,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -15075,6 +15149,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -15436,6 +15511,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -15749,6 +15825,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -15999,6 +16076,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3cfc70ec07025b41b458133bf846c9e, type: 3}
+--- !u!4 &1966716822 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 1966716821}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1977872496
 GameObject:
   m_ObjectHideFlags: 0
@@ -16183,12 +16265,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1985664067 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4489237949829070, guid: c3cfc70ec07025b41b458133bf846c9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1582259282}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2002629059
 GameObject:
   m_ObjectHideFlags: 0
@@ -16690,6 +16766,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -17116,6 +17193,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -17217,12 +17295,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051987298}
   m_Mesh: {fileID: 4300000, guid: 0e51fdc9dea0de24b89e258a538740c8, type: 3}
---- !u!4 &2055937819 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4489237949829070, guid: c3cfc70ec07025b41b458133bf846c9e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1966716821}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2056718645
 GameObject:
   m_ObjectHideFlags: 0
@@ -17453,6 +17525,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -17971,6 +18044,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -18179,6 +18253,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2
@@ -18311,6 +18386,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   MO: {fileID: 0}
+  mover: {fileID: 0}
   isLevelGoal: 0
   isCrackable: 0
   crackableState: 2

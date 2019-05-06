@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Link : MonoBehaviour {
 
-    public float borderWidth = 0.2f;
+    public float borderWidth = .02f;
 
     public float lineThickness = 0.5f;
 
@@ -19,7 +19,7 @@ public class Link : MonoBehaviour {
 
         Vector3 dirVector = endPos - startPos;
 
-        float zScale = dirVector.magnitude - borderWidth * 2f;
+        float zScale = dirVector.magnitude - borderWidth * 2;
 
         Vector3 newScale = new Vector3(lineThickness, 1f, zScale);
 

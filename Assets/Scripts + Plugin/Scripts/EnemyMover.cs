@@ -23,7 +23,7 @@ public class EnemyMover : Mover {
     public MovementType movementType = MovementType.Stationary;
 
     
-    public float standTime = 1f;
+    public float standTime = 0f;
 
     PlayerManager m_player;
 
@@ -110,7 +110,7 @@ public class EnemyMover : Mover {
 
                     Move(m_player.GetPlayerPath(index).transform.position, 0f);
 
-                    yield return new WaitForSeconds(1f);
+                    yield return new WaitForSeconds(0.6f);
 
                     destination = m_player.GetPlayerPath(index + 1).transform.position;
                     FaceDestination();
