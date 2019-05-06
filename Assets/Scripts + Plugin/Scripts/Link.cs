@@ -19,7 +19,11 @@ public class Link : MonoBehaviour {
 
         Vector3 dirVector = endPos - startPos;
 
+<<<<<<< HEAD
         float zScale = dirVector.magnitude - borderWidth * 2;
+=======
+        float zScale = dirVector.magnitude - borderWidth * 10;
+>>>>>>> 28a4a5eb641a63256f509b35829f8aaca21dbf7d
 
         Vector3 newScale = new Vector3(lineThickness, 1f, zScale);
 
